@@ -12,7 +12,7 @@
     </appender>
 
     <appender name="stash" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
-        <destination>127.0.0.1:5000</destination>
+        <destination>172.31.238.3:5000</destination>
         <reconnectionDelay>1 second</reconnectionDelay>
         <keepAliveDuration>5 minutes</keepAliveDuration>
 
